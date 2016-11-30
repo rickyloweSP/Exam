@@ -1,0 +1,173 @@
+{
+    "constructors": [],
+    "externalReferences": [],
+    "id": "01pN0000000JD83IAG",
+    "innerClasses": [],
+    "interfaces": [],
+    "key": "01pN0000000JD83IAG",
+    "methods": [
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 22,
+                "line": 8
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "test_Schedule",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 22,
+                "line": 14
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "testBatchJob",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "TestSetup"
+                }
+            ],
+            "location": {
+                "column": 25,
+                "line": 31
+            },
+            "modifiers": [
+                "private",
+                "static"
+            ],
+            "name": "setupData",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        }
+    ],
+    "name": "Recalaulate_Next_Payment_Date_Test",
+    "namespace": null,
+    "parentClass": "",
+    "properties": [],
+    "tableDeclaration": {
+        "annotations": [
+            {
+                "name": "IsTest"
+            }
+        ],
+        "location": {
+            "column": 15,
+            "line": 6
+        },
+        "modifiers": [
+            "private",
+            "testMethod"
+        ],
+        "name": "Recalaulate_Next_Payment_Date_Test",
+        "references": [],
+        "type": "Recalaulate_Next_Payment_Date_Test"
+    },
+    "variables": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 43,
+                "line": 9
+            },
+            "modifiers": [],
+            "name": "batch",
+            "references": [],
+            "type": "Recalculate_Next_Payment_Date_Scheduled"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 10,
+                "line": 10
+            },
+            "modifiers": [],
+            "name": "sch",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 39,
+                "line": 20
+            },
+            "modifiers": [],
+            "name": "batch",
+            "references": [],
+            "type": "Recalculate_Next_Payment_Date_Batch"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 32
+            },
+            "modifiers": [],
+            "name": "acc",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 33
+            },
+            "modifiers": [],
+            "name": "opp",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 34
+            },
+            "modifiers": [],
+            "name": "TG",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 29,
+                "line": 35
+            },
+            "modifiers": [],
+            "name": "PS",
+            "references": [],
+            "type": "LIST"
+        }
+    ]
+}

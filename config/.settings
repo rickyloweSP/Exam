@@ -1,0 +1,16 @@
+{
+    "projectName": "Antips Sandbox",
+    "username": "systempartners@antipodeans.com.dev",
+    "id": "d96cd2b0-8249-11e6-a2de-c91834949295",
+    "namespace": "",
+    "environment": "sandbox",
+    "loginUrl": "https://test.salesforce.com/",
+    "workspace": "/Users/rickylowe/Dropbox (CloudPerspective Ltd)/MavensMate Workspace",
+    "subscription": [
+        "ApexClass",
+        "ApexComponent",
+        "ApexPage",
+        "ApexTrigger",
+        "StaticResource"
+    ]
+}

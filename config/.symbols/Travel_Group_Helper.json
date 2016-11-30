@@ -1,0 +1,209 @@
+{
+    "constructors": [],
+    "externalReferences": [],
+    "id": "01pN0000000J9baIAC",
+    "innerClasses": [],
+    "interfaces": [],
+    "key": "01pN0000000J9baIAC",
+    "methods": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 8
+            },
+            "modifiers": [
+                "private",
+                "static"
+            ],
+            "name": "getDateFilter",
+            "parameters": [],
+            "references": [],
+            "returnType": "String",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "TestVisible"
+                }
+            ],
+            "location": {
+                "column": 22,
+                "line": 13
+            },
+            "modifiers": [
+                "private",
+                "static"
+            ],
+            "name": "setDateFilter",
+            "parameters": [
+                {
+                    "name": "dateFilterNew",
+                    "type": "String"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 23
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "getTGNextPaymentDatePast",
+            "parameters": [],
+            "references": [],
+            "returnType": "String",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 41,
+                "line": 37
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "clearTheNextPaymentDate",
+            "parameters": [
+                {
+                    "name": "TGs",
+                    "type": "LIST"
+                }
+            ],
+            "references": [],
+            "returnType": "LIST",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 35,
+                "line": 50
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "clearTheNextPaymentDate",
+            "parameters": [
+                {
+                    "name": "TG",
+                    "type": "Travel_Group__c"
+                }
+            ],
+            "references": [],
+            "returnType": "Travel_Group__c",
+            "type": null
+        }
+    ],
+    "name": "Travel_Group_Helper",
+    "namespace": null,
+    "parentClass": "",
+    "properties": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 7
+            },
+            "modifiers": [
+                "private",
+                "static"
+            ],
+            "name": "dateFilter",
+            "references": [],
+            "type": "String"
+        }
+    ],
+    "tableDeclaration": {
+        "annotations": [],
+        "location": {
+            "column": 14,
+            "line": 5
+        },
+        "modifiers": [
+            "public"
+        ],
+        "name": "Travel_Group_Helper",
+        "references": [],
+        "type": "Travel_Group_Helper"
+    },
+    "variables": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 43,
+                "line": 13
+            },
+            "modifiers": [],
+            "name": "dateFilterNew",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 24
+            },
+            "modifiers": [],
+            "name": "fields",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 25
+            },
+            "modifiers": [],
+            "name": "whereClause",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 87,
+                "line": 37
+            },
+            "modifiers": [],
+            "name": "TGs",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 38
+            },
+            "modifiers": [],
+            "name": "TG",
+            "references": [],
+            "type": "Travel_Group__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 75,
+                "line": 50
+            },
+            "modifiers": [],
+            "name": "TG",
+            "references": [],
+            "type": "Travel_Group__c"
+        }
+    ]
+}

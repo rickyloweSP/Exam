@@ -1,0 +1,105 @@
+37.0 APEX_CODE,FINEST;APEX_PROFILING,FINEST;CALLOUT,FINEST;DB,FINEST;SYSTEM,FINEST;VALIDATION,FINEST;VISUALFORCE,FINEST;WORKFLOW,FINEST
+Execute Anonymous: Recalculate_Next_Payment_Date_Scheduled batch2 = new Recalculate_Next_Payment_Date_Scheduled();
+Execute Anonymous: String sch2 = '0 1 0 * * ?';
+Execute Anonymous: system.schedule('Recalculate Next Payment Date', sch2, batch2);
+22:31:01.1 (1788090)|USER_INFO|[EXTERNAL]|005280000026GRP|systempartners@antipodeans.com.dev|Australian Eastern Standard Time|GMT+10:00
+22:31:01.1 (1797706)|EXECUTION_STARTED
+22:31:01.1 (1800966)|CODE_UNIT_STARTED|[EXTERNAL]|execute_anonymous_apex
+22:31:01.1 (24927340)|VARIABLE_SCOPE_BEGIN|[1]|batch2|Recalculate_Next_Payment_Date_Scheduled|true|false
+22:31:01.1 (24953465)|VARIABLE_SCOPE_BEGIN|[2]|sch2|String|false|false
+22:31:01.1 (25066224)|HEAP_ALLOCATE|[72]|Bytes:3
+22:31:01.1 (25102187)|HEAP_ALLOCATE|[77]|Bytes:152
+22:31:01.1 (25116217)|HEAP_ALLOCATE|[342]|Bytes:408
+22:31:01.1 (25131490)|HEAP_ALLOCATE|[355]|Bytes:408
+22:31:01.1 (25145350)|HEAP_ALLOCATE|[467]|Bytes:48
+22:31:01.1 (25170534)|HEAP_ALLOCATE|[139]|Bytes:6
+22:31:01.1 (25193303)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:5
+22:31:01.1 (25236191)|STATEMENT_EXECUTE|[1]
+22:31:01.1 (25239228)|STATEMENT_EXECUTE|[1]
+22:31:01.1 (25243884)|HEAP_ALLOCATE|[1]|Bytes:1
+22:31:01.1 (25286419)|METHOD_ENTRY|[6]|01pN0000000J9Zt|Recalculate_Next_Payment_Date_Scheduled.Recalculate_Next_Payment_Date_Scheduled()
+22:31:01.1 (25291116)|STATEMENT_EXECUTE|[6]
+22:31:01.1 (25295365)|STATEMENT_EXECUTE|[6]
+22:31:01.1 (25302095)|METHOD_EXIT|[6]|Recalculate_Next_Payment_Date_Scheduled
+22:31:01.1 (25323234)|HEAP_ALLOCATE|[1]|Bytes:4
+22:31:01.1 (25365789)|HEAP_ALLOCATE|[50]|Bytes:5
+22:31:01.1 (25397899)|HEAP_ALLOCATE|[56]|Bytes:5
+22:31:01.1 (25408239)|HEAP_ALLOCATE|[64]|Bytes:7
+22:31:01.1 (25430115)|SYSTEM_MODE_ENTER|false
+22:31:01.1 (25465401)|HEAP_ALLOCATE|[1]|Bytes:5
+22:31:01.1 (25487885)|CONSTRUCTOR_ENTRY|[1]|01pN0000000J9Zt|<init>()
+22:31:01.1 (25520343)|VARIABLE_SCOPE_BEGIN|[6]|this|Recalculate_Next_Payment_Date_Scheduled|true|false
+22:31:01.1 (25569559)|VARIABLE_ASSIGNMENT|[6]|this|{}|0x1adfb4f3
+22:31:01.1 (25579842)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:6
+22:31:01.1 (25613674)|STATEMENT_EXECUTE|[6]
+22:31:01.1 (25623929)|CONSTRUCTOR_EXIT|[1]|01pN0000000J9Zt|<init>()
+22:31:01.1 (25631813)|SYSTEM_MODE_EXIT|false
+22:31:01.1 (25654190)|VARIABLE_ASSIGNMENT|[1]|batch2|{}|0x1adfb4f3
+22:31:01.1 (25657405)|STATEMENT_EXECUTE|[2]
+22:31:01.1 (25661042)|HEAP_ALLOCATE|[2]|Bytes:11
+22:31:01.1 (25673624)|VARIABLE_ASSIGNMENT|[2]|sch2|"0 1 0 * * ?"
+22:31:01.1 (25675788)|STATEMENT_EXECUTE|[3]
+22:31:01.1 (25678264)|HEAP_ALLOCATE|[3]|Bytes:29
+22:31:01.1 (25711943)|SYSTEM_METHOD_ENTRY|[3]|System.schedule(String, String, APEX_OBJECT)
+22:31:01.1 (118694673)|LIMIT_USAGE|[EXTERNAL]|MAX_ASYNC|1|200
+22:31:01.1 (130858045)|SYSTEM_METHOD_EXIT|[3]|System.schedule(String, String, APEX_OBJECT)
+22:31:01.139 (139949020)|CUMULATIVE_LIMIT_USAGE
+22:31:01.139 (139949020)|LIMIT_USAGE_FOR_NS|(default)|
+  Number of SOQL queries: 0 out of 100
+  Number of query rows: 0 out of 50000
+  Number of SOSL queries: 0 out of 20
+  Number of DML statements: 0 out of 150
+  Number of DML rows: 0 out of 10000
+  Maximum CPU time: 0 out of 10000
+  Maximum heap size: 0 out of 6000000
+  Number of callouts: 0 out of 100
+  Number of Email Invocations: 0 out of 10
+  Number of future calls: 0 out of 50
+  Number of queueable jobs added to the queue: 0 out of 50
+  Number of Mobile Apex push calls: 0 out of 10
+
+22:31:01.139 (139949020)|TOTAL_EMAIL_RECIPIENTS_QUEUED|0
+22:31:01.139 (139949020)|STATIC_VARIABLE_LIST|
+  char[]:DigitTens:0
+  long:serialVersionUID:0
+  String:_sfdcSuppressedCodeLocations:0
+  long:serialVersionUID:0
+  String:_sfdcAdditionalCodeLocations:0
+  double:MAX_VALUE:0
+  Boolean:FALSE:0
+  long:serialVersionUID:0
+  double:MIN_VALUE:0
+  int:SIZE:0
+  String:_static_sch2:0
+  double:NEGATIVE_INFINITY:0
+  int:MAX_VALUE:0
+  char[]:digits:0
+  double:NaN:0
+  Boolean:TRUE:0
+  Recalculate_Next_Payment_Date_Scheduled:_static_batch2:0
+  String:_sfdcAdditionalCodeLocations:0
+  int:MIN_VALUE:0
+  char[]:DigitOnes:0
+  int:BYTES:0
+  int:MIN_EXPONENT:0
+  int[]:sizeTable:0
+  int:MAX_EXPONENT:0
+  int:SIZE:0
+  double:POSITIVE_INFINITY:0
+  double:MIN_NORMAL:0
+  int:BYTES:0
+
+22:31:01.139 (139949020)|CUMULATIVE_LIMIT_USAGE_END
+
+22:31:01.1 (140135012)|CODE_UNIT_FINISHED|execute_anonymous_apex
+22:31:01.1 (142460331)|EXECUTION_FINISHED
+22:31:01.144 (144256574)|CUMULATIVE_PROFILING_BEGIN
+22:31:01.144 (144256574)|CUMULATIVE_PROFILING|No profiling information for SOQL operations
+22:31:01.144 (144256574)|CUMULATIVE_PROFILING|No profiling information for SOSL operations
+22:31:01.144 (144256574)|CUMULATIVE_PROFILING|No profiling information for DML operations
+22:31:01.144 (144256574)|CUMULATIVE_PROFILING|method invocations|
+External entry point: public static void execute(): executed 1 time in 106 ms
+AnonymousBlock: line 3, column 1: global public static String schedule(String, String, APEX_OBJECT): executed 1 time in 105 ms
+AnonymousBlock: line 1, column 1: global Recalculate_Next_Payment_Date_Scheduled(): executed 1 time in 0 ms
+
+22:31:01.144 (144256574)|CUMULATIVE_PROFILING_END
